@@ -113,7 +113,7 @@ export default function MenuDrawer() {
         PaperProps={{
           sx: {
             width: NAV_WIDTH,
-            bgcolor: "background.default",
+            bgcolor: "error",
             borderRightStyle: "1px solid",
             overflowX: "hidden",
           },

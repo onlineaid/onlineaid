@@ -12,7 +12,7 @@ import useSettings from "../hook/useSettings";
 //
 import palette from "./palette";
 import typography from "./typography";
-import breakpoints from "./breakpoints";
+// import breakpoints from "./breakpoints";
 import componentsOverride from "./overrides";
 import shadows, { customShadows } from "./shadows";
 
@@ -34,7 +34,7 @@ export default function ThemeProvider({ children }) {
       //   ...palette.light, // Use the light variant of your palette
       // },
       typography,
-      breakpoints,
+      // breakpoints,
       shape: { borderRadius: 8 },
       direction: themeDirection,
       shadows: isLight ? shadows.light : shadows.dark,

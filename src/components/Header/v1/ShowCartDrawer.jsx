@@ -9,6 +9,7 @@ import {
   Button,
   Divider,
   Grid,
+  Badge,
 } from "@mui/material";
 import AddCircleRoundedIcon from "@mui/icons-material/AddCircleRounded";
 import RemoveCircleRoundedIcon from "@mui/icons-material/RemoveCircleRounded";
@@ -17,6 +18,8 @@ import CartIcon from "../../Cart/CartIcon";
 
 import { Link } from "react-router-dom";
 import DeleteSingleCart from "../../../page/AddToCart/v1/DeleteSingleCart";
+import ShoppingCartSharpIcon from "@mui/icons-material/ShoppingCartSharp";
+
 const NAV_WIDTH = 240; // Set the width of the nav drawer
 
 function ShowCartDrawer() {
@@ -37,7 +40,18 @@ function ShowCartDrawer() {
   };
   return (
     <Box sx={{ position: "relative" }}>
-      <CartIcon badgeCount={14} onClick={toggleNav} />
+        <IconButton
+        size="large"
+        edge="end"
+        aria-haspopup="true"
+        onClick={toggleNav}
+        color="inherit"
+        aria-label="show 2 new mails"
+      >
+        <Badge badgeContent={2} color="error">
+          <ShoppingCartSharpIcon />
+        </Badge>
+      </IconButton>
 
       <Drawer
         open={openNav}

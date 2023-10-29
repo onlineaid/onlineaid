@@ -15,6 +15,7 @@ import ThemeProvider from "./theme/index.jsx";
 import { HelmetProvider } from "react-helmet-async";
 import AuthProvider from "./provider/AuthProvider.jsx";
 import { ColorPresetProvider } from "./contexts/ColorPresetContext.jsx";
+// import { ThemeProvider } from "./contexts/ThemeContext.jsx";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>

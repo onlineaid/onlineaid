@@ -13,12 +13,15 @@ import {
   Typography,
   Slide,
   Popover,
+  useTheme,
 } from "@mui/material";
 import List01 from "./List/List01";
 import { Link } from "react-router-dom";
 
 const ReusableList = ({ title, lists, onClose, isOpening }) => {
-  console.log(lists);
+  const theme = useTheme();
+  console.log(theme.palette.mode)
+  // console.log(lists);
   // useEffect(() => {
   //   if (!isOpening) {
   //     const timeout = setTimeout(() => {
@@ -32,7 +35,7 @@ const ReusableList = ({ title, lists, onClose, isOpening }) => {
     <Slide direction="right" in={isOpening} mountOnEnter unmountOnExit>
       <Box
         sx={{
-          backgroundColor: "#f0f0f0",
+          backgroundColor: theme.palette.mode === 'dark' ? theme.palette.grey[800] : theme.palette.grey[100] ,
           height: "100%",
           flexGrow: 1,
           top: "0",
