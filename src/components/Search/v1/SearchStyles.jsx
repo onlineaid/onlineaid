@@ -45,5 +45,6 @@ export const StyledInputBase = styled(InputBase)(({ theme }) => ({
     [theme.breakpoints.down("sm")]: {
       width: "100%",
     },
+    
   },
 }));

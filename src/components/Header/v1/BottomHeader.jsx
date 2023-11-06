@@ -1,11 +1,12 @@
-import { Box, Button, Container, Typography } from "@mui/material";
+import { Box, Button, Container, Typography, useTheme } from "@mui/material";
 import React from "react";
 import { Link } from "react-router-dom";
 import MenuDrawer from "../../Menu/v1/MenuDrawer";
 
 export default function BottomHeader() {
+  const theme =  useTheme()
   return (
-    <Box sx={{ background: "#2427d6" }}>
+    <Box sx={{  backgroundColor: theme.palette.mode === "dark" ? theme.palette.background.default : theme.palette.background.default}}>
       {/* <Marquee> */}
       <Box sx={{ display: "flex", gap: 3, mx: 3, alignItems: "center" }}>
         <MenuDrawer />

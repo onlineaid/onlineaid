@@ -140,15 +140,15 @@ export default function MenuDrawer() {
         </List>
 
         {/* List section You can made it component */}
-        <Slide direction="right" in={isOpening} mountOnEnter unmountOnExit>
+        {/* <Slide direction="right" in={isOpening} mountOnEnter unmountOnExit> */}
           <Box>
             {activeSection === "Electronics" && (
-              <ReusableList
-                title="Electronics"
-                lists={ScrollableList}
-                onClose={handleCloseSection}
-                isOpening={isOpening}
-              />
+                <ReusableList
+                  title="Electronics"
+                  lists={ScrollableList}
+                  onClose={handleCloseSection}
+                  isOpening={isOpening}
+                />
             )}
             {activeSection === "Women's Fashion" && (
               <ReusableList
@@ -175,7 +175,7 @@ export default function MenuDrawer() {
               />
             )}
           </Box>
-        </Slide>
+        {/* </Slide> */}
       </Drawer>
     </Box>
   );

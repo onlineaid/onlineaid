@@ -78,7 +78,7 @@ const CustomDrawer = ({
         {/* Add more list items for additional categories if needed */}
       </List>
 
-      <Slide direction="left" in={isOpening} mountOnEnter unmountOnExit>
+      <Slide direction="right" in={isOpening} mountOnEnter unmountOnExit>
         <Box>
           {activeSection === "sectionOne" && (
             <SectionOne

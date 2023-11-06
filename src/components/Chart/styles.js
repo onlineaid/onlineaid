@@ -27,6 +27,7 @@ export default function StyledChart() {
           },
           ".apexcharts-tooltip.apexcharts-theme-light": {
             ...bgBlur({ color: theme.palette.background.default }),
+            background: alpha(theme.palette.grey[500], 0.16),
             border: 0,
             boxShadow: theme.customShadows.dropdown,
             borderRadius: Number(theme.shape.borderRadius) * 1.5,

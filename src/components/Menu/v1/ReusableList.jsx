@@ -20,7 +20,7 @@ import { Link } from "react-router-dom";
 
 const ReusableList = ({ title, lists, onClose, isOpening }) => {
   const theme = useTheme();
-  console.log(theme.palette.mode)
+  // console.log(theme.palette.mode)
   // console.log(lists);
   // useEffect(() => {
   //   if (!isOpening) {
@@ -32,7 +32,7 @@ const ReusableList = ({ title, lists, onClose, isOpening }) => {
   // }, []);
 
   return (
-    <Slide direction="right" in={isOpening} mountOnEnter unmountOnExit>
+    <Slide direction="right" in={isOpening} >
       <Box
         sx={{
           backgroundColor: theme.palette.mode === 'dark' ? theme.palette.grey[800] : theme.palette.grey[100] ,
