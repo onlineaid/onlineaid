@@ -12,6 +12,17 @@ import RadialBarChart from "../../../components/Chart/v1/RadialBarChart";
 import RadialBarChart2 from "../../../components/Chart/v1/RadialBarChart2";
 import RadialChart from "../../../components/Chart/v1/RadialChart";
 import PolarChart from "../../../components/Chart/v1/PolarChart";
+import PolarChart2 from "../../../components/Chart/v1/PolarChart2";
+import MultiRadialChart from "../../../components/Chart/v1/MultiRadialChart";
+import SocialViewChart from "../../../components/Chart/v1/SocialViewChart";
+import TradeChart from "../../../components/Chart/v1/TradeChart";
+import SingleAreaChart from "../../../components/Chart/v1/SingleAreaChart";
+import BarChart from "../../../components/Chart/v1/BarChart";
+import YearUpdateChart from "../../../components/Chart/v1/YearUpdateChart";
+import CashFlowChart from "../../../components/Chart/v1/CashFlowChart";
+import UserPerformanceChart from "../../../components/Chart/v1/UserPerformanceChart";
+import UserProgressChart from "../../../components/Chart/v1/UserProgressChart";
+import RadialBarSemiCircleChart from "../../../components/Chart/v1/RadialBarSemiCircleChart";
 
 function Dashboard() {
   const theme = useTheme();
@@ -179,6 +190,26 @@ function Dashboard() {
           />
         </Grid>
         <Grid item xs={12} md={6} lg={4}>
+          <PolarChart series={[14, 23, 21, 17, 15, 10, 12, 17, 21]} />
+        </Grid>
+        <Grid item xs={12} md={6} lg={4}>
+          <PolarChart2 series={[42, 47, 52, 58, 65]} />
+        </Grid>
+        <Grid item xs={12} md={6} lg={4}>
+          <MultiRadialChart series={[44, 55, 67, 83]} />
+        </Grid>
+        <Grid item xs={12} md={6} lg={8}>
+          <SocialViewChart />
+        </Grid> 
+        <Grid item xs={12} md={6} lg={4}>
+         <RadialBarSemiCircleChart />
+        </Grid>
+        
+        <Grid item xs={12} md={6} lg={8}>
+          <TradeChart />
+        </Grid>
+        
+        <Grid item xs={12} md={6} lg={4}>
           <RadialChart
             title="Radial Bar Chart Example"
             subheader="Sample Subheader"
@@ -186,9 +217,23 @@ function Dashboard() {
             labels={["Cricket"]}
           />
         </Grid>
-        <Grid item xs={12} md={6} lg={4}>
-          <PolarChart series={[14, 23, 21, 17, 15, 10, 12, 17, 21]} />
+        
+        <Grid item xs={12} md={6} lg={8}>
+          <BarChart />
         </Grid>
+
+        <Grid item xs={12} md={6} lg={8}>
+          <CashFlowChart />
+        </Grid>
+        <Grid item xs={12} md={6} lg={8}>
+          <UserPerformanceChart />
+        </Grid>
+
+        <Grid item xs={12} md={6} lg={8}>
+          <UserProgressChart />
+        </Grid>
+
+
       </Grid>
     </Container>
     // </Layout>
