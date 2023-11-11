@@ -145,7 +145,7 @@ export default function useChart(options) {
       pie: {
         donut: {
           labels: {
-            show: true,
+            show: false,
             value: LABEL_VALUE,
             total: LABEL_TOTAL,
           },
