@@ -1,5 +1,6 @@
 import PropTypes from 'prop-types';
 import SimpleBarReact from 'simplebar-react';
+// import 'simplebar-react/dist/simplebar.min.css';
 // @mui
 import { alpha, styled } from '@mui/material/styles';
 import { Box } from '@mui/material';
@@ -9,11 +10,11 @@ import { Box } from '@mui/material';
 const RootStyle = styled('div')(() => ({
   flexGrow: 1,
   height: '100%',
-  overflow: 'scroll',
+  overflowY: 'scroll',
 }));
 
 const SimpleBarStyle = styled(SimpleBarReact)(({ theme }) => ({
-  // maxHeight: '100%',
+  maxHeight: '100%',
   '& .simplebar-scrollbar': {
     '&:before': {
       backgroundColor: alpha(theme.palette.grey[600], 0.48),
@@ -21,9 +22,12 @@ const SimpleBarStyle = styled(SimpleBarReact)(({ theme }) => ({
     '&.simplebar-visible:before': {
       opacity: 1,
     },
+    // Adjust the width for the vertical scrollbar
+    width: 6, // Set your desired width
   },
   '& .simplebar-track.simplebar-vertical': {
-    width: 10,
+    // Adjust the width for the vertical track
+    width: 4, // Set your desired width
   },
   '& .simplebar-track.simplebar-horizontal .simplebar-scrollbar': {
     height: 6,
@@ -33,7 +37,13 @@ const SimpleBarStyle = styled(SimpleBarReact)(({ theme }) => ({
   },
   "& .simplebar-placeholder": {
     height: '0 !important',
-  }
+  },
+  // Add your custom styles here:
+  '& .my-custom-class': {
+    // Your custom styles
+    backgroundColor: 'red',
+    // Add more styles as needed
+  },
 }));
 
 // ----------------------------------------------------------------------
@@ -65,4 +75,4 @@ export default function Scrollbar({ children, sx, ...other }) {
   );
 }
 
-export {SimpleBarStyle};
+export { SimpleBarStyle };

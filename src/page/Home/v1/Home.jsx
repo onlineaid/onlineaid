@@ -2,7 +2,6 @@ import React, { useEffect, useState, lazy, Suspense } from "react";
 import { Container } from "@mui/material";
 import { Helmet } from "react-helmet-async";
 import LoadingLinearTop from "../../../components/Loading/LoadingLinearTop";
-import { useColorPresets } from "../../../contexts/ColorPresetContext";
 
 // Components
 import ViewMobileResponsive from "../../../components/SlideImg/v1/ViewMobileResponsive";
@@ -37,6 +36,9 @@ function Home() {
           <Suspense fallback={<Loading />}>
             <BannerSlider />
           </Suspense>
+
+
+
 
           <Container>
             <ViewMobileResponsive />

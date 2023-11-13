@@ -14,7 +14,7 @@ import useSettings from "../../../hook/useSettings";
 // utils
 import cssStyles from "../../../utils/cssStyles";
 // config
-// import { NAVBAR, defaultSettings } from "../../../config";
+import { defaultSettings } from "../../../../config";
 //
 import Iconify from "./Iconify";
 import Scrollbar from "./../Scrollbar";
@@ -36,8 +36,9 @@ const RootStyle = styled(m.div)(({ theme }) => ({
   bottom: 0,
   display: "flex",
   position: "fixed",
-  overflow: "hidden",
-  // width: NAVBAR.BASE_WIDTH,
+  // overflowY: "Scroll",
+  overflowX: "hidden",
+  width: 280,
   flexDirection: "column",
   margin: theme.spacing(2),
   paddingBottom: theme.spacing(3),
@@ -66,13 +67,13 @@ export default function SettingsDrawer() {
 
   const [open, setOpen] = useState(false);
 
-  // const notDefault =
-  //   themeMode !== defaultSettings.themeMode ||
-  //   themeLayout !== defaultSettings.themeLayout ||
-  //   themeStretch !== defaultSettings.themeStretch ||
-  //   themeContrast !== defaultSettings.themeContrast ||
-  //   themeDirection !== defaultSettings.themeDirection ||
-  //   themeColorPresets !== defaultSettings.themeColorPresets;
+  const notDefault =
+    themeMode !== defaultSettings.themeMode ||
+    themeLayout !== defaultSettings.themeLayout ||
+    themeStretch !== defaultSettings.themeStretch ||
+    themeContrast !== defaultSettings.themeContrast ||
+    themeDirection !== defaultSettings.themeDirection ||
+    themeColorPresets !== defaultSettings.themeColorPresets;
 
   useEffect(() => {
     if (open) {
@@ -104,7 +105,7 @@ export default function SettingsDrawer() {
       {!open && (
         <ToggleButton
           open={open}
-          // notDefault={notDefault}
+          notDefault={notDefault}
           onToggle={handleToggle}
         />
       )}

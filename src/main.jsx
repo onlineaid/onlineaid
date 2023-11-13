@@ -15,19 +15,17 @@ import ThemeProvider from "./theme/index.jsx";
 import { HelmetProvider } from "react-helmet-async";
 import AuthProvider from "./provider/AuthProvider.jsx";
 import { ColorPresetProvider } from "./contexts/ColorPresetContext.jsx";
-// import { ThemeProvider } from "./contexts/ThemeContext.jsx";
+import ThemeSetting from "./components/settings/index.jsx";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <HelmetProvider>
       <ThemeProvider>
-        <ColorPresetProvider>
-          
-        <AuthProvider>
-          <RouterProvider router={router} />
-        </AuthProvider>
-
-        </ColorPresetProvider>
+        <ThemeSetting>
+          <AuthProvider>
+            <RouterProvider router={router} />
+          </AuthProvider>
+        </ThemeSetting>
       </ThemeProvider>
     </HelmetProvider>
   </React.StrictMode>
