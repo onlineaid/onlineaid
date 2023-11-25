@@ -6,9 +6,9 @@ import { ColorPresetProvider } from "./contexts/ColorPresetContext";
 
 function App() {
   return (
-    // <ColorPresetProvider>
+    <ColorPresetProvider>
         <Home />
-    // </ColorPresetProvider>
+    </ColorPresetProvider>
   );
 }
 

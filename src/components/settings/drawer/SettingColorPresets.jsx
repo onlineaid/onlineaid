@@ -22,6 +22,9 @@ const BoxStyle = styled(CardActionArea)(({ theme }) => ({
 
 export default function SettingColorPresets() {
   const { themeColorPresets, onChangeColor, colorOption } = useSettings();
+  // console.log(colorOption())
+
+  console.log(colorOption)
 
   return (
     <RadioGroup name="themeColorPresets" value={themeColorPresets} onChange={onChangeColor}>

@@ -1,6 +1,6 @@
-import React, { useRef } from "react";
 import {
   Box,
+  Container,
   Grid,
   Paper,
   Rating,
@@ -8,6 +8,8 @@ import {
   Typography,
   useTheme,
 } from "@mui/material";
+import React from "react";
+import Marquee from "react-fast-marquee";
 import { Link } from "react-router-dom";
 
 export const productData = [
@@ -18,7 +20,7 @@ export const productData = [
     price: 19.99,
     currency: "USD",
     image:
-      "https://static-01.daraz.com.bd/p/b994318f0b20d67ada83f6e620ea37a2.jpg_400x400q75-product.jpg_.webp",
+      "https://static-01.daraz.com.bd/p/560c95393155fbe1b02c1121282f6e30.jpg_188x188.jpg_.webp",
     category: "Electronics",
     brand: "Example Brand",
     rating: 4.5,
@@ -32,7 +34,7 @@ export const productData = [
     price: 19.99,
     currency: "USD",
     image:
-      "https://static-01.daraz.com.bd/p/fd574b5a64d4494c8093d2d0cd5ac48f.jpg_400x400q75-product.jpg_.webp",
+      "https://static-01.daraz.com.bd/p/16eb736f3743232014870ef14cc00f10.jpg_300x0q75.webp",
     category: "Electronics",
     brand: "Example Brand",
     rating: 4.5,
@@ -74,7 +76,7 @@ export const productData = [
     price: 19.99,
     currency: "USD",
     image:
-      "https://m.media-amazon.com/images/I/419duk9SwmL._AC_UF452,452_FMjpg_.jpg",
+      "https://static-01.daraz.com.bd/p/a79d44d8425b0208b936342d53b2c0a0.jpg_200x200q80-product.jpg_.webp",
     category: "Electronics",
     brand: "Example Brand",
     rating: 4.5,
@@ -97,18 +99,19 @@ export const productData = [
   },
 ];
 
-function ProductRowSection({ SectionTitle }) {
-  const theme = useTheme()
+function ProductMarquee({SectionTitle}) {
+  const theme = useTheme();
 
   return (
-    <Paper sx={{ p: 2, mt: 5 }} elevation={10}>
-      <Box>
-        <Typography variant="h6" mb={2}>
-          {SectionTitle}
-        </Typography>
-        <Grid container spacing={1}>
-          {productData.map((data) => (
-            <Grid item xs={6} sm={6} md={3} lg={12 / 6} xl={2} key={data.id}>
+    <Paper sx={{ p: 1.5, my: 5 }}>
+      <Typography variant="h6" mb={0.5}>
+        {SectionTitle}
+      </Typography>
+
+      <Marquee>
+        {productData.map((data) => (
+          <Grid item xs={6} sm={6} md={3} lg={12 / 6} xl={2} key={data.id}>
+            <Stack direction="row" spacing={2} sx={{ p: 0.5 }}>
               <Paper sx={{ p: 0.5 }}>
                 <Box
                   sx={{ textDecoration: "none", color: "inherit" }}
@@ -118,7 +121,7 @@ function ProductRowSection({ SectionTitle }) {
                   <Box
                     component="img"
                     sx={{
-                      width: "100%",
+                      width: "200px",
                       borderRadius: theme.shape,
                     }}
                     src={data.image}
@@ -136,12 +139,12 @@ function ProductRowSection({ SectionTitle }) {
                   </Stack>
                 </Box>
               </Paper>
-            </Grid>
-          ))}
-        </Grid>
-      </Box>
+            </Stack>
+          </Grid>
+        ))}
+      </Marquee>
     </Paper>
   );
 }
 
-export default ProductRowSection;
+export default ProductMarquee;

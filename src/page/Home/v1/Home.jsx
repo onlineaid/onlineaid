@@ -11,15 +11,17 @@ import ProductRowSection from "../../../components/Product/v1/ProductRowSection"
 import ViewProductWithSingle from "../../../components/Product/v1/ViewProductWithSingle";
 import ReuseableProductCarousel from "../../../components/Product/v1/ReuseableProductCarousel";
 import Loading from "../../../components/Loading/Loading";
+import ProductMarquee from "../../SingleShop/com/ProductMarquee";
 
 // Lazy load component
 const Layout = lazy(() => import("../../../layout/GlobalLayout/Layout"));
-const BannerSlider = lazy(() =>
-  new Promise((resolve) => {
-    setTimeout(() => {
-      resolve(import("../../../components/SlideImg/v1/BannerSlider"));
-    }, 1000); // Delay loading for 1 second
-  })
+const BannerSlider = lazy(
+  () =>
+    new Promise((resolve) => {
+      setTimeout(() => {
+        resolve(import("../../../components/SlideImg/v1/BannerSlider"));
+      }, 1000); // Delay loading for 1 second
+    })
 );
 
 function Home() {
@@ -37,12 +39,14 @@ function Home() {
             <BannerSlider />
           </Suspense>
 
-
-
-
           <Container>
-            <ViewMobileResponsive />
+            <Suspense fallback={<Loading />}>
+              <ProductMarquee SectionTitle={"Frequently selling product"} />
+            </Suspense>
+
+
             <ProductRowSection SectionTitle={"Trading product"} />
+            <ViewMobileResponsive />
 
             <JustForYouSection
               SectionTitle={"Just for you"}

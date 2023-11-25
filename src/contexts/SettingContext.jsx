@@ -1,14 +1,17 @@
 // provider === component
 import { createContext, useEffect } from "react";
-// import { defaultSettings } from "../config";
+import { defaultSettings } from "../../config";
 import useLocalStorage from "../hook/useLocalStorage";
 import getColorPresets, {
   defaultPreset,
   colorPresets,
 } from "../utils/getColorPresets";
 
+
+// console.log(colorPresets)
+
 const initialState = {
-//   ...defaultSettings,
+  // ...defaultSettings,
 
   // Mode
   onToggleMode: () => {},

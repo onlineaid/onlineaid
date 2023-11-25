@@ -33,6 +33,8 @@ import Congratulations from "../page/Congress/v1/Congratulations.jsx";
 import Documentation from "../Docs/page/Documentation.jsx";
 import DocLayout from "../Docs/layout/DocLayout.jsx";
 import Setup from "../Docs/page/Setup.jsx";
+import SingleShop from "../page/SingleShop/SingleShop.jsx";
+import Details2 from "../page/SingleShop/v2/Details2.jsx";
 
 export const router = createBrowserRouter([
   {
@@ -116,6 +118,16 @@ export const router = createBrowserRouter([
     path: "/faqs",
     element: <Faq />,
   },
+  
+  {
+    path: "/single",
+    element: <SingleShop />,
+  },
+  {
+    path: "/v2/single",
+    element: <Details2 />,
+  },
+  
 
   // User dashboard route
   {

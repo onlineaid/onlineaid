@@ -18,7 +18,7 @@ export default function ThemeColorPresets({ children }) {
 
   const { setColor } = useSettings();
 
-  console.log(setColor)
+  // console.log(setColor)
 
   
 
@@ -36,6 +36,8 @@ export default function ThemeColorPresets({ children }) {
     }),
     [setColor, defaultTheme]
   );
+
+  // console.log(themeOptions)
 
   const theme = createTheme(themeOptions);
 

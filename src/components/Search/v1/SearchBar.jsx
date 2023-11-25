@@ -3,6 +3,7 @@ import { Box } from "@mui/material";
 import SearchIcon from "@mui/icons-material/Search";
 import { Search, SearchIconWrapper, StyledInputBase } from "./SearchStyles";
 import SearchKeyword from "./SearchKeyword";
+import SearchSelect from "./SearchSelect";
 
 function SearchBar() {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
@@ -38,10 +39,14 @@ function SearchBar() {
         <SearchIconWrapper>
           <SearchIcon />
         </SearchIconWrapper>
-        <StyledInputBase
-          placeholder="Search…"
-          inputProps={{ "aria-label": "search" }}
-        />
+        <Box sx={{display: 'flex'}}>
+          <SearchSelect />
+
+          <StyledInputBase
+            placeholder="Search…"
+            inputProps={{ "aria-label": "search" }}
+          />
+        </Box>
         <SearchKeyword
           isOpen={isDropdownOpen}
           onClose={handleDropdownClose}

@@ -13,8 +13,8 @@ export default function BottomHeader() {
         <Box sx={{ color: "white" }} component={Link} to={"/today"}>
           Today's Deals
         </Box>
-        <Box sx={{ color: "white" }} component={Link} to={"/today"}>
-          Buy Again
+        <Box sx={{ color: "white" }} component={Link} to={"/single"}>
+          Product Promotion
         </Box>
         <Box sx={{ color: "white" }} component={Link} to={"/today"}>
           Customer Service

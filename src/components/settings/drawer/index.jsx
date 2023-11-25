@@ -91,6 +91,9 @@ export default function SettingsDrawer() {
     setOpen(false);
   };
 
+  
+  // console.log(<SettingColorPresets />)
+
   return (
     <>
       <Backdrop
