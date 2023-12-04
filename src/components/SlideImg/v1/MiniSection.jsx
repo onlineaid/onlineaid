@@ -10,40 +10,8 @@ import {
 import MobileMiniSlider from "./MobileMiniSlider";
 import { Link } from "react-router-dom";
 
-export const products = [
-  {
-    id: 1,
-    image:
-      "https://s.alicdn.com/@sc04/kf/H1ae0ab3f3fbc4cb8be248fbe4299e58eD.jpg_480x480.jpg",
-    price: "$10.99",
-  },
-  {
-    id: 2,
-    image:
-      "https://s.alicdn.com/@sc04/kf/H4cc1fa84e3a44c219d282987b59aa029v.jpeg_250x250xz.jpg",
-    price: "$12.99",
-  },
-  {
-    id: 3,
-    image:
-      "https://s.alicdn.com/@sc04/kf/H0b91f507d7af4dc48c5f1707f9866d31r.jpeg_250x250xz.jpg",
-    price: "$8.99",
-  },
-  {
-    id: 4,
-    image:
-      "https://s.alicdn.com/@sc04/kf/H2ec527e4af284463beb556225d422ec3c.jpeg_250x250xz.jpg",
-    price: "$14.99",
-  },
-  {
-    id: 5,
-    image:
-      "https://s.alicdn.com/@sc04/kf/H3ecd4b2408a244eeb0a2d3321e586e10M.jpg_250x250xz.jpg",
-    price: "$9.99",
-  },
-];
 
-export default function MiniSection({ SectionTitle }) {
+export default function MiniSection({ SectionTitle, products }) {
   const theme = useTheme();
   const isSmallDevice = useMediaQuery(theme.breakpoints.down("md"));
   return (

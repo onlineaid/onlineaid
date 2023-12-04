@@ -6,19 +6,19 @@ import DealWithFourImg from "./DealWithFourImg";
 const items = [
   {
     image:
-      "https://s.alicdn.com/@sc04/kf/Hd927703e6d4941aba4652c6cad1a5ce0M.jpg_480x480.jpg",
+      "https://chaldn.com/_mpimage/office-electronics?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D96740&q=best&v=1&m=400&webp=1",
   },
   {
     image:
-      "https://s.alicdn.com/@sc04/kf/Ha49943145d404c1e803b6da67c7d61cf9.jpg_480x480.jpg",
+      "https://chaldn.com/_mpimage/desk-organizers?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D96754&q=best&v=1&m=400&webp=1",
   },
   {
     image:
-      "https://s.alicdn.com/@sc04/kf/He7bc700fa4874b59b9a9bd25985338afx.jpeg_480x480.jpg",
+      "https://chaldn.com/_mpimage/highlighters-markers?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D28699&q=low&v=1&m=400&webp=1",
   },
   {
     image:
-      "https://s.alicdn.com/@sc04/kf/H6f3716bbb2724bbe824a3d163389b3dfG.jpg_480x480.jpg",
+      "https://chaldn.com/_mpimage/arts-crafts?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D96737&q=best&v=1&m=400&webp=1",
   },
 ];
 

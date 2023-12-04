@@ -28,7 +28,7 @@ const StyledToolbar = styled(Toolbar)(({ theme }) => ({
   display: "flex",
   justifyContent: "space-between",
   alignItems: "center",
-  backgroundColor: theme.palette.secondary.main,
+  backgroundColor: theme.palette.error.main,
 }));
 
 export default function Header() {

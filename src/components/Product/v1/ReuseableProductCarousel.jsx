@@ -6,51 +6,87 @@ import { Link } from "react-router-dom";
 const items = [
   {
     id: 1,
-    description: "Fixing CSS load order/style.chunk.css incorrect in Nextjs",
-    headline: "New Designed Casual Shoes Bulk Shoes Men Sneakers",
+    name: "Example Product",
+    description: "This is an example product description.",
+    price: 19.99,
+    currency: "USD",
     image:
-      "https://s.alicdn.com/@sc04/kf/Ha49943145d404c1e803b6da67c7d61cf9.jpg_480x480.jpg",
+      "https://chaldn.com/_mpimage/cutting?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D96746&q=best&v=1&m=400&webp=1",
+    category: "Electronics",
+    brand: "Example Brand",
+    rating: 4.5,
+    reviews: 10,
+    availability: true,
   },
   {
     id: 2,
-
-    description: "Fixing CSS load order/style.chunk.css incorrect in Nextjs",
-    headline: "w3js.com - web front-end studio",
+    name: "Example Product",
+    description: "This is an example product description.",
+    price: 19.99,
+    currency: "USD",
     image:
-      "https://s.alicdn.com/@sc04/kf/H7b1326101ed64c8484110eab46e965301.jpg_480x480.jpg",
+      "https://chaldn.com/_mpimage/files-folders?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D96749&q=best&v=1&m=400&webp=1",
+    category: "Electronics",
+    brand: "Example Brand",
+    rating: 4.5,
+    reviews: 10,
+    availability: true,
   },
   {
     id: 3,
-
-    description: "React Carousel with Server Side Rendering Support – Part 2",
-    headline: "w3js.com - web front-end studio",
+    name: "Example Product",
+    description: "This is an example product description.",
+    price: 19.99,
+    currency: "USD",
     image:
-      "https://s.alicdn.com/@sc04/kf/He7bc700fa4874b59b9a9bd25985338afx.jpeg_480x480.jpg",
+      "https://deodap.in/cdn/shop/files/04_d8751488-faa9-4ac0-a356-c6c759988665_700x700.jpg?v=1700222987",
+    category: "Electronics",
+    brand: "Example Brand",
+    rating: 4.5,
+    reviews: 10,
+    availability: true,
   },
   {
     id: 4,
-
-    description: "React Carousel with Server Side Rendering Support – Part 1",
-    headline: "w3js.com - web front-end studio",
+    name: "Example Product",
+    description: "This is an example product description.",
+    price: 19.99,
+    currency: "USD",
     image:
-      "https://s.alicdn.com/@sc04/kf/H6f3716bbb2724bbe824a3d163389b3dfG.jpg_480x480.jpg",
+      "https://m.media-amazon.com/images/I/71aRnFQNNsL._AC_UF894,1000_QL80_.jpg",
+    category: "Electronics",
+    brand: "Example Brand",
+    rating: 4.5,
+    reviews: 10,
+    availability: true,
   },
-
   {
     id: 5,
-
-    description: "React Carousel with Server Side Rendering Support – Part 2",
-    headline: "w3js.com - web front-end studio",
+    name: "Example Product",
+    description: "This is an example product description.",
+    price: 19.99,
+    currency: "USD",
     image:
-      "https://s.alicdn.com/@sc04/kf/UTB8FWWWExHEXKJk43Jeq6yeeXXan.jpg_250x250xz.jpg",
+      "https://5.imimg.com/data5/SELLER/Default/2023/10/354664732/BS/TI/MX/201305251/princess-stationary-set-250x250.png",
+    category: "Electronics",
+    brand: "Example Brand",
+    rating: 4.5,
+    reviews: 10,
+    availability: true,
   },
   {
     id: 6,
-
-    description: "React Carousel with Server Side Rendering Support – Part 2",
-    headline: "w3js.com - web front-end studio",
+    name: "Example Product",
+    description: "This is an example product description.",
+    price: 19.99,
+    currency: "USD",
     image:
-      "https://static-01.daraz.com.bd/p/733b5b814c1780aa022677e206dfe2f9.jpg_400x400q75-product.jpg_.webp",
+      "https://m.media-amazon.com/images/I/51c7HavjcrL._AC_UF350,350_QL80_.jpg",
+    category: "Electronics",
+    brand: "Example Brand",
+    rating: 4.5,
+    reviews: 10,
+    availability: true,
   },
 ];
 
@@ -146,9 +182,9 @@ function ReuseableProductCarousel({ SectionTitle, RouteLink }) {
                       alt=""
                       sx={{ width: "100%", borderRadius: "5px" }}
                     />
-                    <Typography variant="body2">
+                    {/* <Typography variant="body2">
                       {item.headline.substring(0, 25)}...
-                    </Typography>
+                    </Typography> */}
                   </Box>
                 </Box>
               </Paper>

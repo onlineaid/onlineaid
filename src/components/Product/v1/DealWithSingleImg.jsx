@@ -20,7 +20,7 @@ export default function DealWithSingleImg({
         <Box>
           <Box>
             <img
-              src="https://s.alicdn.com/@sc04/kf/Hd927703e6d4941aba4652c6cad1a5ce0M.jpg_480x480.jpg"
+              src="https://images.squarespace-cdn.com/content/v1/5aff144629711461a68110a7/1534054471502-2OKQ4ONA41W2A7SXEFJW/11.jpg"
               alt=""
               style={{
                 width: "100%",

@@ -18,7 +18,7 @@ const productData = [
     price: 19.99,
     currency: "USD",
     image:
-      "https://static-01.daraz.com.bd/p/b994318f0b20d67ada83f6e620ea37a2.jpg_400x400q75-product.jpg_.webp",
+      "https://chaldn.com/_mpimage/cutting?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D96746&q=best&v=1&m=400&webp=1",
     category: "Electronics",
     brand: "Example Brand",
     rating: 4.5,
@@ -32,7 +32,7 @@ const productData = [
     price: 19.99,
     currency: "USD",
     image:
-      "https://static-01.daraz.com.bd/p/fd574b5a64d4494c8093d2d0cd5ac48f.jpg_400x400q75-product.jpg_.webp",
+      "https://chaldn.com/_mpimage/files-folders?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D96749&q=best&v=1&m=400&webp=1",
     category: "Electronics",
     brand: "Example Brand",
     rating: 4.5,
@@ -46,7 +46,7 @@ const productData = [
     price: 19.99,
     currency: "USD",
     image:
-      "https://static-01.daraz.com.bd/p/011687c0633d6b336a0de47d6ecc1d0c.jpg_400x400q75-product.jpg_.webp",
+      "https://deodap.in/cdn/shop/files/04_d8751488-faa9-4ac0-a356-c6c759988665_700x700.jpg?v=1700222987",
     category: "Electronics",
     brand: "Example Brand",
     rating: 4.5,
@@ -60,7 +60,7 @@ const productData = [
     price: 19.99,
     currency: "USD",
     image:
-      "https://static-01.daraz.com.bd/p/mdc/180c8b06034c543c8fd2798bbb9ea952.jpg_400x400q75-product.jpg_.webp",
+      "https://m.media-amazon.com/images/I/71aRnFQNNsL._AC_UF894,1000_QL80_.jpg",
     category: "Electronics",
     brand: "Example Brand",
     rating: 4.5,
@@ -74,7 +74,7 @@ const productData = [
     price: 19.99,
     currency: "USD",
     image:
-      "https://s.alicdn.com/@sc04/kf/Hdc1d83b424f449f2b7c058957513f11as.jpg_250x250xz.jpg",
+      "https://5.imimg.com/data5/SELLER/Default/2023/10/354664732/BS/TI/MX/201305251/princess-stationary-set-250x250.png",
     category: "Electronics",
     brand: "Example Brand",
     rating: 4.5,
@@ -88,7 +88,7 @@ const productData = [
     price: 19.99,
     currency: "USD",
     image:
-      "https://static-01.daraz.com.bd/p/6a3bee1e84bb5054d0492fa53f859f80.jpg_400x400q75-product.jpg_.webp",
+      "https://m.media-amazon.com/images/I/51c7HavjcrL._AC_UF350,350_QL80_.jpg",
     category: "Electronics",
     brand: "Example Brand",
     rating: 4.5,
@@ -103,7 +103,7 @@ const productData = [
     price: 19.99,
     currency: "USD",
     image:
-      "https://s.alicdn.com/@sc04/kf/Hd6e0d57852f14931a30c4de83fb26f8fb.jpg_250x250xz.jpg",
+      "https://images.glowroad.com/faceview/b1e/ic/cc/b9c/imgs/pd/1677740033292_IMG_20230227_164940-xlgnm400x400.jpg",
     category: "Electronics",
     brand: "Example Brand",
     rating: 4.5,
@@ -118,7 +118,7 @@ const productData = [
     price: 19.99,
     currency: "USD",
     image:
-      "https://s.alicdn.com/@sc04/kf/Hd0053eba9fb943f5ada9614b244c9556h.jpg_250x250xz.jpg",
+      "https://m.media-amazon.com/images/I/81L0t7uUtgL._AC_UY1100_.jpg",
     category: "Electronics",
     brand: "Example Brand",
     rating: 4.5,
@@ -133,7 +133,7 @@ const productData = [
     price: 19.99,
     currency: "USD",
     image:
-      "https://s.alicdn.com/@sc04/kf/H0b91f507d7af4dc48c5f1707f9866d31r.jpeg_250x250xz.jpg",
+      "https://m.media-amazon.com/images/I/61q1XUmWw9L._SL1000_.jpg",
     category: "Electronics",
     brand: "Example Brand",
     rating: 4.5,
@@ -148,7 +148,7 @@ const productData = [
     price: 19.99,
     currency: "USD",
     image:
-      "https://s.alicdn.com/@sc04/kf/H539c4abc9df94d38b6ba83a7473baee4s.jpg_250x250xz.jpg",
+      "https://bossminis.co.uk/cdn/shop/products/4521329323299_b9617f240636cfb2e6b2892a98045a55__27010.1647482138_1000x1000.jpg?v=1648546030",
     category: "Electronics",
     brand: "Example Brand",
     rating: 4.5,
@@ -163,7 +163,7 @@ const productData = [
     price: 19.99,
     currency: "USD",
     image:
-      "https://s.alicdn.com/@sc04/kf/H153bbd39e57e46c09e6445ae5ab55704w.jpg_480x480.jpg",
+      "https://i.ebayimg.com/images/g/sdEAAOSw6zBh9534/s-l1600.jpg",
     category: "Electronics",
     brand: "Example Brand",
     rating: 4.5,
@@ -178,7 +178,7 @@ const productData = [
     price: 19.99,
     currency: "USD",
     image:
-      "https://static-01.daraz.com.bd/p/581c57d9da4adde7be0660410bf054cb.jpg",
+      "https://hellodiscountstore.com/cdn/shop/products/medium_125d3ce8-5ba9-4d8b-8bb6-abf262a62d67_1024x1024.jpg?v=1608319662",
     category: "Electronics",
     brand: "Example Brand",
     rating: 4.5,

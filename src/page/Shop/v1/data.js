@@ -6,7 +6,7 @@ const productData = [
     price: 19.99,
     currency: "USD",
     image:
-      "https://s.alicdn.com/@sc04/kf/U3e61f2f7c2044998946a55a6ed93efe4T.jpeg_480x480.jpg",
+      "https://themagictrunk.co.in/cdn/shop/files/custom_resized_59e1ab8e-7ddf-4bb3-a48f-1346bfcc54b5_580x.jpg?v=1690449057",
     category: "Electronics",
     brand: "Example Brand",
     rating: 4.5,
@@ -20,7 +20,7 @@ const productData = [
     price: 19.99,
     currency: "USD",
     image:
-      "https://s.alicdn.com/@sc04/kf/Ab060a9795b554cfca101888d5417f2b7n.jpg_220x220.jpg",
+      "https://johnlewis.scene7.com/is/image/JohnLewis/stationery-nav2-250723",
     category: "Electronics",
     brand: "Example Brand",
     rating: 4.5,
@@ -34,7 +34,7 @@ const productData = [
     price: 19.99,
     currency: "USD",
     image:
-      "https://s.alicdn.com/@sc04/kf/Ucd8d64697249428791933b0c67745d4aP.jpg_300x300.jpg",
+      "https://images.summitmedia-digital.com/spotph/images/2022/09/09/stationery-items-school-haul-colorful-pens-1662684209.png",
     category: "Electronics",
     brand: "Example Brand",
     rating: 4.5,

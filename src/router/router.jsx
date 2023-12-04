@@ -35,6 +35,7 @@ import DocLayout from "../Docs/layout/DocLayout.jsx";
 import Setup from "../Docs/page/Setup.jsx";
 import SingleShop from "../page/SingleShop/SingleShop.jsx";
 import Details2 from "../page/SingleShop/v2/Details2.jsx";
+import ProfileUpdate from "../page/User/v1/ProfileUpdate.jsx";
 
 export const router = createBrowserRouter([
   {
@@ -141,6 +142,10 @@ export const router = createBrowserRouter([
       {
         path: "/user/profile",
         element: <Profile />,
+      },
+      {
+        path: "/user/profile/update",
+        element: <ProfileUpdate />,
       },
       {
         path: "/user/orders",

@@ -3,7 +3,7 @@ import { Box } from "@mui/material";
 import SearchIcon from "@mui/icons-material/Search";
 import { Search, SearchIconWrapper, StyledInputBase } from "./SearchStyles";
 import SearchKeyword from "./SearchKeyword";
-import SearchSelect from "./SearchSelect";
+// import SearchSelect from "./SearchSelect";
 
 function SearchBar() {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
@@ -40,7 +40,7 @@ function SearchBar() {
           <SearchIcon />
         </SearchIconWrapper>
         <Box sx={{display: 'flex'}}>
-          <SearchSelect />
+          {/* <SearchSelect /> */}
 
           <StyledInputBase
             placeholder="Search…"

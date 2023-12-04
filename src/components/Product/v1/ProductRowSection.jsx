@@ -18,7 +18,7 @@ export const productData = [
     price: 19.99,
     currency: "USD",
     image:
-      "https://static-01.daraz.com.bd/p/b994318f0b20d67ada83f6e620ea37a2.jpg_400x400q75-product.jpg_.webp",
+      "https://demo2.prestabrain.com/stationero/wp-content/uploads/2022/03/product-14-1-400x400.jpg",
     category: "Electronics",
     brand: "Example Brand",
     rating: 4.5,
@@ -32,7 +32,7 @@ export const productData = [
     price: 19.99,
     currency: "USD",
     image:
-      "https://static-01.daraz.com.bd/p/fd574b5a64d4494c8093d2d0cd5ac48f.jpg_400x400q75-product.jpg_.webp",
+      "https://demo2.prestabrain.com/stationero/wp-content/uploads/2022/03/product-11-1-400x400.jpg",
     category: "Electronics",
     brand: "Example Brand",
     rating: 4.5,
@@ -46,7 +46,7 @@ export const productData = [
     price: 19.99,
     currency: "USD",
     image:
-      "https://static-01.daraz.com.bd/p/011687c0633d6b336a0de47d6ecc1d0c.jpg_400x400q75-product.jpg_.webp",
+      "https://demo2.prestabrain.com/stationero/wp-content/uploads/2022/03/product-1-1-400x400.jpg",
     category: "Electronics",
     brand: "Example Brand",
     rating: 4.5,
@@ -60,7 +60,7 @@ export const productData = [
     price: 19.99,
     currency: "USD",
     image:
-      "https://static-01.daraz.com.bd/p/mdc/180c8b06034c543c8fd2798bbb9ea952.jpg_400x400q75-product.jpg_.webp",
+      "https://demo2.prestabrain.com/stationero/wp-content/uploads/2022/03/product-3-1-400x400.jpg",
     category: "Electronics",
     brand: "Example Brand",
     rating: 4.5,
@@ -74,7 +74,7 @@ export const productData = [
     price: 19.99,
     currency: "USD",
     image:
-      "https://m.media-amazon.com/images/I/419duk9SwmL._AC_UF452,452_FMjpg_.jpg",
+      "https://demo2.prestabrain.com/stationero/wp-content/uploads/2022/03/product-6-1-400x400.jpg",
     category: "Electronics",
     brand: "Example Brand",
     rating: 4.5,
@@ -88,7 +88,7 @@ export const productData = [
     price: 19.99,
     currency: "USD",
     image:
-      "https://static-01.daraz.com.bd/p/6a3bee1e84bb5054d0492fa53f859f80.jpg_400x400q75-product.jpg_.webp",
+      "https://demo2.prestabrain.com/stationero/wp-content/uploads/2022/03/product-8-1-400x400.jpg",
     category: "Electronics",
     brand: "Example Brand",
     rating: 4.5,

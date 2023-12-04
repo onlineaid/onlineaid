@@ -11,7 +11,7 @@ import ProductRowSection from "../../../components/Product/v1/ProductRowSection"
 import ViewProductWithSingle from "../../../components/Product/v1/ViewProductWithSingle";
 import ReuseableProductCarousel from "../../../components/Product/v1/ReuseableProductCarousel";
 import Loading from "../../../components/Loading/Loading";
-import ProductMarquee from "../../SingleShop/com/ProductMarquee";
+import MarqueeProduct from "../../../components/Product/v1/MarqueeProduct";
 
 // Lazy load component
 const Layout = lazy(() => import("../../../layout/GlobalLayout/Layout"));
@@ -41,7 +41,7 @@ function Home() {
 
           <Container>
             <Suspense fallback={<Loading />}>
-              <ProductMarquee SectionTitle={"Frequently selling product"} />
+              <MarqueeProduct SectionTitle={"Frequently selling product"} />
             </Suspense>
 
 

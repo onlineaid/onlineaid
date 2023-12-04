@@ -6,15 +6,15 @@ import { Link } from "react-router-dom";
 const imgData = [
   {
     id: 1,
-    image: "https://onlineaid.netlify.app/public/images/slider/slider2.jpg",
+    image:
+    "https://www.thepencompany.com/blog/wp-content/uploads/back-to-school-1.jpg",
     bigTitle: "Give some title",
     subTitle: "Give some subtitle",
     buttonText: "Shop Now",
   },
   {
     id: 2,
-    image:
-      "https://i.ibb.co/q9shsrw/240-F-229742070-UOUl-BZt-Od-QBz-YDa-Ph-Dy-H9hbpftb-K9in-T.png",
+    image: "https://stationers.pk/cdn/shop/articles/7_Must_Have_Student_Stationery_Supplies_In_High_School.jpg?v=1635331870",
     bigTitle: "Give some title",
     subTitle: "Give some subtitle",
     buttonText: "Shop Now",
@@ -22,7 +22,7 @@ const imgData = [
   {
     id: 3,
     image:
-      "https://i.ibb.co/t2hjQFd/240-F-156896021-y-CTTXnn-YBXto4q-X3c0-Mu-HYa-Q8-KENwu2l.png",
+      "https://properliving.co.uk/cdn/shop/products/stationery_kit.JPG?v=1452384014",
     bigTitle: "Give some title",
     subTitle: "Give some subtitle",
     buttonText: "Shop Now",
