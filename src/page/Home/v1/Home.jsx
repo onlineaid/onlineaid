@@ -12,6 +12,7 @@ import ViewProductWithSingle from "../../../components/Product/v1/ViewProductWit
 import ReuseableProductCarousel from "../../../components/Product/v1/ReuseableProductCarousel";
 import Loading from "../../../components/Loading/Loading";
 import MarqueeProduct from "../../../components/Product/v1/MarqueeProduct";
+// import Browser from "../../../components/Location/Browser";
 
 // Lazy load component
 const Layout = lazy(() => import("../../../layout/GlobalLayout/Layout"));
@@ -38,6 +39,8 @@ function Home() {
           <Suspense fallback={<Loading />}>
             <BannerSlider />
           </Suspense>
+
+          {/* <Browser /> */}
 
           <Container>
             <Suspense fallback={<Loading />}>
